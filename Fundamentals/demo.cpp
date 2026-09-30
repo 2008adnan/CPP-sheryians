@@ -1,6 +1,6 @@
 #include <iostream>
 
 int main(){
-    https://github.com/2008adnan/CPP-sheryians
+    std::cout<<"Hello, World";
     return 0;
 }
