@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int firstNumber = 10;
+    int secondNumber = 20;
+
+    const float PI = 3.14; // constant variable...means its value cannot be reinitialized or changed
+    //PI = 3.14159; // This will cause a compilation error because PI is a constant
+
+    cout << "SUm: " << firstNumber+secondNumber << endl;
+    cout << "Second Number: " << secondNumber << endl;
+    cout << "Size of int: " << sizeof(int) << endl;
+    cout << "PI = " << PI << endl;
+    return 0;
+}
